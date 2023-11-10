@@ -1,5 +1,9 @@
 function minDate(dates) {
-  //write you code here
+  // let newDates = dates.map((date) => {
+  //   return new Date(date);
+  // });
+  // return newDates.sort();
+  return dates.sort()[0];
 }
 
 // Do not change the code
